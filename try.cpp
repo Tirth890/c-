@@ -49,7 +49,7 @@
 using namespace std;
 
 int sumFirstLastDigit(int number) {
-    number = abs(number); // Handle negative numbers
+    number = abs(number); 
     string numStr = to_string(number);
     int firstDigit = numStr[0] - '0';
     int lastDigit = numStr[numStr.length() - 1] - '0';
