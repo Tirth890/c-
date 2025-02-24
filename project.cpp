@@ -17,8 +17,6 @@
 //     return 0;
 // }
 
-
-
 // q2
 // 
 // #include <iostream>
@@ -37,7 +35,6 @@
 
 //     return 0;
 // }
-
 
 // Q3
 // #include <iostream>
@@ -71,7 +68,6 @@
 //         cout << ("\n");
 //     }
 // }
-
 
 // q4
 // #include <iostream>
@@ -118,9 +114,7 @@
 //     return 0;
 // }
 
-
 // q6
-
 // #include <iostream>
 // using namespace std;
 
@@ -153,8 +147,6 @@
 // }
 
 // q7
-
-
 #include <iostream>
 using namespace std;
 main()
