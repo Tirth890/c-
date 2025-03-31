@@ -9,6 +9,7 @@ protected:
     double balance;
 
 public:
+
     Account(string accNum, string accHolder, double bal) : accountNumber(accNum), accountHolder(accHolder), balance(bal) {}
 
     virtual void deposit(double amount) {
@@ -73,14 +74,13 @@ public:
 int main() {
     Bank myBank;
 
-    // Creating accounts
+  
     SavingsAccount* acc1 = new SavingsAccount("001207815785", "tirth bhalala", 1000, 5);
     Account* acc2 = new Account("678901258972", "milan patel", 500);
 
     myBank.addAccount(acc1);
     myBank.addAccount(acc2);
 
-    // Transactions
     acc1->deposit(200);
     acc1->withdraw(100);
     acc1->addInterest();
